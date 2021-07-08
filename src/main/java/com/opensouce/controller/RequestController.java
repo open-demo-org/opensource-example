@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/request")
 public class RequestController {
 
+    /**
+     * request方法
+     * @return
+     */
     @GetMapping("/send")
     public void request(){
         return "this is test result";
