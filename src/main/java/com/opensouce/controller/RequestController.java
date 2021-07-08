@@ -13,7 +13,7 @@ public class RequestController {
      * @return
      */
     @GetMapping("/send")
-    public void request(){
+    public String request(){
         return "this is test result";
     }
 }
